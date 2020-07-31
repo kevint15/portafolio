@@ -1,0 +1,169 @@
+/* NO CAMBIAR NADA DESDE AQUÍ */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Londrina Solid', cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentacion {
+  margin-top: 60px;
+  background-color: #FDFFFC;
+  min-height: 500px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 50px;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 2px 24px 2px #656565; 
+  box-shadow: 2px 2px 24px 2px #656565;
+}
+
+.presentacion img{
+  max-width: 300px;
+  padding: 30px;
+}
+
+.informacion-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.informacion-contacto h1 {
+  font-size: 40px;
+  font-family: 'Bungee', cursive;
+  line-height: 45px;
+}
+
+.informacion-contacto ul {
+  width: 100%;
+  margin-top: 20px;
+  padding-left: 50px;
+}
+
+.informacion-contacto li {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.certificado {
+  width: 90%;
+  margin: 40px 0 0px 0;
+}
+
+.certificado img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.portafolio {
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portafolio h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.proyecto {
+  display: flex;
+  margin: 30px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.proyecto img {
+  max-width: 300px;
+}
+
+.link-proyecto {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 28px;
+  margin: 20px 0;
+  font-family: 'Bungee', cursive;
+}
+
+.proyecto .descripcion {
+  margin-left: 20px;
+}
+
+.descripcion h3 {
+  font-size: 28px;
+  margin: 20px 0;
+  font-family: 'Bungee', cursive;
+}
+
+.descripcion p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  margin-top: 40px;
+  /* font-family: 'Roboto', sans-serif; */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.07);
+  padding: 30px 0;
+}
+
+
+footer h2 {
+  font-weight: 400;
+}
+
+footer h3 {
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+.link {
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+/* HASTA AQUÍ */
+
+
+
+/* Cambia desde aquí los colores: */
+
+.tarjeta-1 {
+  background-color:#7B7B88;
+}
+.tarjeta-2 {
+  background-color:#D56526;
+}
+.tarjeta-3 {
+  background-color:#32588C;
+}
+.tarjeta-4 {
+  background-color:#FFF979;
+}
